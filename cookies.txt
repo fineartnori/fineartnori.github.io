@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.fineartnori.com	TRUE	/	FALSE	1999999999	crumb	Bcu5mpglWT7lMjQ4Yjc2YWM3ZGRmZWY5NzI4NTdkNDMzZmY2ZDk3
+
