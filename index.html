@@ -1,4 +1,14 @@
 <!doctype html>
+<script>
+  // This hides the cart before the Squarespace 'Rollups' can even start
+  document.documentElement.insertAdjacentHTML('beforeend', '<style id="anti-flash">#floatingCart{display:none !important; visibility:hidden !important;}</style>');
+  
+  // This deletes it the moment the DOM is interactive
+  document.addEventListener("DOMContentLoaded", function() {
+    var cart = document.getElementById('floatingCart');
+    if (cart) { cart.remove(); }
+  });
+</script>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"  >
   
 <!-- Mirrored from www.fineartnori.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Dec 2025 14:39:14 GMT -->
